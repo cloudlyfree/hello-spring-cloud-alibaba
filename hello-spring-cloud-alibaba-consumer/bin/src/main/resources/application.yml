@@ -4,10 +4,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.0.93:8848
+        server-addr: 127.0.0.1:8848
     sentinel:
       transport:
-        dashboard: 192.168.0.93:8080
+        dashboard: 127.0.0.1:8080
         # 当前应用被sentinel监控的端口
         port: 8720
 
